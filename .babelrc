@@ -1,0 +1,33 @@
+{
+  "comments": true,
+  "presets": [
+    "@babel/react",
+    [
+      "@babel/preset-env",
+      {
+        "corejs": "2",
+        "useBuiltIns": "usage",
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["scripts/common"]
+    }],
+    "babel-plugin-styled-components",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread"
+  ],
+  "env": {
+    "react-optimize": {
+      "plugins": [
+        "@babel/plugin-transform-react-constant-elements",
+        "@babel/plugin-transform-react-jsx-compat",
+        "@babel/plugin-transform-react-jsx-self"
+      ]
+    }
+  }
+}
