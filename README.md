@@ -3,7 +3,7 @@
 [Demo](https://spleen25.github.io/photogallery )
 
 ## Description
-A simple Photo Gallery page built with React. The dummy users, albums and photos were fetched using React hooks and Axios from [JSONPlaceholder API] (https://jsonplaceholder.typicode.com) 
+A simple Photo Gallery page built with React. The dummy users, albums and photos were fetched using React hooks and Axios from [JSONPlaceholderAPI](https://jsonplaceholder.typicode.com) 
 
 ## Instructions
 
